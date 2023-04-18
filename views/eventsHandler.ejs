@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Events</title>
+  <link rel="icon" href="/images/logo.png">
+  <style>
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 1em;
+			background-color: #202020;
+			color: #fff;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: row;
+		}
+
+		nav li {
+			margin-right: 1em;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+
+   
+		.container {
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			grid-gap: 10px;
+			padding: 20px;
+		}
+
+		.item {
+			border: 1px solid black;
+			text-align: center;
+			padding: 10px;
+		}
+
+		.item img {
+			max-width: 100%;
+			height: 150px;
+		}
+
+		section {
+			padding: 2em;
+			margin: 2em 0;
+			background-color: #f8f8f8;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		h1, h2 {
+			margin-top: 0;
+		}
+
+    .hover-button {
+  display: inline-block;
+  margin-left: 40%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2196f3;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+  background-color: #0c7cd5;
+}
+
+
+		footer {
+			background-color: #202020;
+			color: #fff;
+			padding: 1em;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		footer ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: row;
+		}
+
+		footer li {
+			margin-right: 1em;
+		}
+
+		footer a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		footer p {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="/images/abhisarga.png" alt="Abhisarga Banner">
+		<nav>
+			<ul>
+				<li><a href="/home">Home</a></li>
+      <li><a href="/eventsHandler">Events</a></li>
+      <li><a href="/registration">Registration for Events</a></li>
+      
+      <li><a href="/contactUs">Contact Us</a></li>
+
+			</ul>
+		</nav>
+	</header>
+
+		
+</head>
+   
+
+<div class="container">
+  <div class="item">
+    <img src="/images/dance.png" alt="Dance">
+    <h3>Dance</h3>
+  </div>
+  <div class="item">
+    <img src="/images/singing.png" alt="Singing">
+    <h3>Singing</h3>
+  </div>
+  <div class="item">
+    <img src="/images/art.png" alt="art">
+    <h3>Art</h3>
+  </div>
+  <div class="item">
+    <img src="/images/music.png" alt="Music">
+    <h3>Music</h3>
+  </div>
+  <div class="item">
+    <img src="/images/drama.png" alt="Drama">
+    <h3>Drama</h3>
+  </div>
+</div>
+
+<div>
+<a href="./registration" class="hover-button">Register Now</a>
+</div>
+	<br>
+  <br>
+  <br>
+
+  
+
+        
+        
+           
+        
+          <footer>
+            <div class="footer-left">
+              <h3>Abhisarga</h3>
+              <p>A techno-cultural fest organized by IIITS College to encourage innovation, creativity, and cultural diversity among the youth.</p>
+              <div class="footer-social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer-center">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="/home">Home</a></li>
+      <li><a href="/eventsHandler">Events</a></li>
+      <li><a href="/registration">Registration for Events</a></li>
+      
+      <li><a href="/contactUs">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="footer-right">
+              <h3>Contact Us</h3>
+              <div class="footer-contact">
+                <i class="fa fa-map-marker"></i>
+                <p>IIITS College<br>sricity,Ap,India</p>
+              </div>
+              <div class="footer-contact">
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:info@abhisarga.com">info@abhisarga.com</a></p>
+              </div>
+              <div class="footer-contact">
+                <i class="fa fa-phone"></i>
+                <p>+91 4385234750</p>
+              </div>
+            </div>
+          </footer>
+          
+        </body>
+        </html>
